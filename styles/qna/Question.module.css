@@ -1,0 +1,186 @@
+.questionContainer {
+  width: 90%;
+  display: flex;
+  gap: 60px;
+  cursor: auto;
+}
+.questionNumbers {
+  color: #fff;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.questionInfo{
+width: 100%;
+}
+.questionTitle {
+  color: #32a7ff;
+  font-size: 24px;
+}
+.questionTitle:hover{
+  text-decoration: underline;
+}
+
+.questionContent {
+  color: #fff;
+  font-size: 16px;
+  font-family: Inter;
+  margin: 20px 0;
+  margin-bottom: 20px !important;
+}
+.tagsContainer {
+  display: flex;
+  gap: 11px;
+}
+.tagsContainer div {
+  background-color: #555a66;
+  min-width: 85px;
+  height: 32px;
+  color: #f3f8ff;
+  font-size: 16px;
+  font-weight: 500px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 0 10px;
+}
+.qFooter{
+  align-items: center;
+display: flex;
+justify-content: right;
+    gap: 15px;
+  margin-top: 2rem;
+}
+
+.qAuthor{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.qAuthor>svg{
+    color: rgba(255, 255, 255, 0.85);
+}
+.qAuthor>p{
+    color: #32A7FF;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+}
+.qDate{
+    color: #AAA;
+font-size: 14px;
+font-family: Inter;
+font-weight: 500;
+}
+.actions{
+  display: flex;
+  gap: 5px;
+}
+.actions svg{
+  color: #AAA;
+  cursor: pointer;
+}
+
+.edit:hover{
+  color:#32A7FF;
+}
+.delete:hover{
+  color:#CF422F;
+}
+
+.askForm{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.inputContainer,
+.tags{
+  display: flex;
+  flex-direction: column;
+}
+.inputContainer input, 
+.inputContainer textarea,
+.tags input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 35px;
+  margin-top: 6px;
+  
+}
+.inputContainer label,
+.tags label{
+  color: #888888;
+}
+
+.tags div{
+  display: flex;
+  gap: 30px;
+}
+.tags div button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.tags div button svg{
+  font-size: 25px;
+}
+.tagContainer{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.tagContainer div{
+  display: flex;
+  background-color: #555a66;
+  min-width: 70px;
+  height: 50px;
+  color: #f3f8ff;
+  font-size: 20px;
+  font-weight: 500px;
+  border-radius: 12px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+.tagContainer svg{
+  color: #888888;
+  font-size: 24px;
+  cursor: pointer;
+}
+.tagContainer svg:hover{
+  color: #CF422F;
+}
+.tagsLimit{
+  font-size: 18px;
+  color: #CF422F;
+  margin: 10px;
+}
+
+.actions{
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+}
+.actions button{
+  padding: 3px 10px;
+  border-radius: 14px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  padding: 3px 10px;
+}
+.post{
+  background: #404040;
+  color: #F1F1F1;
+  border: 1px solid #404040;
+}
+.post:hover{
+  background: #248046;
+  color: #fff;
+  border: 1px solid #248046;
+}

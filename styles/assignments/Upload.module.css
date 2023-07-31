@@ -1,0 +1,61 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropzone{
+    padding: 20px 30px;
+    border: 1px dashed;
+    margin-bottom: 16px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.selected{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container button{
+    position: absolute;
+    right: 35px;
+    bottom: 20px;
+    width: 5rem;
+    background: #404040;
+    border: 1px solid #404040;
+    border-radius: 14px;
+    color: #F1F1F1;
+    padding: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.container button:hover{
+    background-color: #ffffff;
+    color: #404040;
+}
+.selectedItem{
+    display: flex;
+    gap: 15px;
+    align-items: baseline;
+}
+
+.selectedItem .progress{
+    flex-basis: 60%;
+    margin-left: 50px;
+}
+
+.selectedItem>svg{
+    color:red;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.selectedItem>svg:hover{
+    color: #2B2D31;
+}

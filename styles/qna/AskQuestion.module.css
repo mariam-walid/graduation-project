@@ -1,0 +1,124 @@
+.askQuestion{
+    width: 230px;
+    height: 60px;
+    right: 93px;
+    top: 69px;
+    background: #248046;
+    border-radius: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    border: 1px solid #248046;
+}
+.askQuestion:hover{
+    color:#248046;
+    background: #2B2D31;
+}
+
+.askForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer,
+.tags{
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer input, 
+.inputContainer textarea,
+.tags input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 35px;
+    margin-top: 6px;
+    
+}
+.inputContainer label,
+.tags label{
+    color: #888888;
+}
+
+.tags div{
+    display: flex;
+    gap: 30px;
+}
+.tags div button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.tags div button svg{
+    font-size: 25px;
+}
+.tagContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.tagContainer div{
+    display: flex;
+    background-color: #555a66;
+    min-width: 70px;
+    height: 50px;
+    color: #f3f8ff;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 12px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+}
+.tagContainer svg{
+    color: #888888;
+    font-size: 24px;
+    cursor: pointer;
+}
+.tagContainer svg:hover{
+    color: #CF422F;
+}
+.tagsLimit{
+    font-size: 18px;
+    color: #CF422F;
+    margin: 10px;
+}
+
+.actions{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+}
+.actions button{
+    padding: 3px 10px;
+    border-radius: 14px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    padding: 3px 10px;
+}
+.post{
+    background: #404040;
+    color: #F1F1F1;
+    border: 1px solid #404040;
+}
+.discard{
+    border: 1px solid #000;
+    background: #FFF;
+    color: #323232;
+}
+.discard:hover{
+    border: 1px solid #CF422F;
+    color: #CF422F;
+}
+.post:hover{
+    background: #248046;
+    color: #fff;
+    border: 1px solid #248046;
+}

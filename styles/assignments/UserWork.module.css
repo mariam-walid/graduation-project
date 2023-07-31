@@ -1,0 +1,97 @@
+.work{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 22px;
+    min-height: 150px;
+    position: relative;
+    padding: 20px 30px;
+}
+.work:hover{
+    border:1px solid rgba(255, 255, 255, 0.64);
+}
+
+.title{
+    font-family: 'Inter';
+font-weight: 700;
+font-size: 24px;
+letter-spacing: 1.5px;
+color: #FFFFFF;
+text-transform: capitalize;
+} 
+.workDetails{
+    display: flex;
+    justify-content: space-between;
+}
+.workAttachments{
+    margin-left: 50px;
+    color: rgba(255, 255, 255, 0.64);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.attachment{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.attachment>svg{
+    color: #ffffff;
+    cursor:pointer;
+}
+.attachment>svg:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.grade{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.grade label{
+    font-weight: 500;
+  font-size: 26px;
+  line-height: 42px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+.grade input{
+    font-weight: 400;
+    font-size: 24px;
+    color: #D9D9D9;
+    background-color: rgba(217, 217, 217, 0.1);
+    outline: none;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    padding: 16px;
+    margin-left: 20px;
+    width: 5rem;
+    height: 2.5rem;
+}
+.grade button{
+    padding: 7px;
+      border-radius: 8px;
+      border: 1px solid #248046;
+      outline: none;
+      color: #ffffff;
+      letter-spacing: 1px;
+      background: #248046;
+      cursor: pointer;
+      width: 5rem;
+      margin-top: 1.2rem;
+  }
+  .grade button:hover{
+      background: #2B2D31;
+      color:#248046;
+  }
+  .grade span{
+    color:#ffffff;
+    font-size: 24px;
+  }
+  .grade svg{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #248046;
+  }

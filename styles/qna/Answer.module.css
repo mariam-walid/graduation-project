@@ -1,0 +1,160 @@
+.answerContainer{
+    /* display: flex; */
+    border-radius: 15px;
+    background: #1F2125;
+    margin: 25px;
+}
+
+.answerHeader{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.headerLeft{
+    display: flex;
+    gap: 10px;
+}
+.answerVote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.answerVote svg{
+    color: rgba(255,255,255,0.85);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.answerVote svg:hover{
+    color: #777575;;
+}
+.answerVote  span{
+    color: #FFF;
+    font-size: 24px;
+    font-family: Inter;
+}
+
+.answerContent{
+    display: flex;
+    /* align-items: baseline; */
+    gap: 10px;
+}
+.answerContent svg{
+    color: #248046;
+    /* width: 50px;
+    height: 50px; */
+
+}
+.answerContent p{
+    color: #ffffff;
+    font-size: 22px;
+}
+.answerActions{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.edit,
+.delete,
+.accept{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #AAA;
+}
+.edit:hover{
+    color:#32A7FF;
+}
+.delete:hover{
+    color:#CF422F;
+}
+.accept:hover{
+    color: #248046;
+}
+
+.accepted{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #248046;
+}
+.accepted:hover{
+    color: #AAA;
+}
+.answerAuthor{
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+}
+.answerAuthor div{
+    display: flex;
+    gap: 5px;
+}
+.answerAuthor svg{
+    color: rgba(255, 255, 255, 0.85);
+}
+.author{
+    color: #32A7FF;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.aDate{
+    color: #AAA;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 35px;
+    margin-top: 6px;
+    
+}
+.inputContainer label{
+    color: #888888;
+}
+
+.actions{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+}
+.actions button{
+    padding: 3px 10px;
+    border-radius: 14px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    padding: 3px 10px;
+}
+.post{
+    background: #404040;
+    color: #F1F1F1;
+    border: 1px solid #404040;
+}
+.discard{
+    border: 1px solid #000;
+    background: #FFF;
+    color: #323232;
+}
+.discard:hover{
+    border: 1px solid #CF422F;
+    color: #CF422F;
+}
+.post:hover{
+    background: #248046;
+    color: #fff;
+    border: 1px solid #248046;
+}

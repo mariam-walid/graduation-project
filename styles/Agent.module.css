@@ -1,0 +1,120 @@
+/* Styles for the first div */
+.window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.window form input {
+    /* style for the input element */
+    width: 400px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.window form button {
+    /* style for the button element */
+    padding: 8px 16px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styles for the second div */
+.iconContainer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9998;
+}
+
+.iconContainer .iconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.iconContainer .iconWrapper .icon {
+    /* style for the icon inside the icon-wrapper */
+    color: #fff;
+    font-size: 24px;
+}
+
+.iconContainer .shortcut {
+    margin-top: 5px;
+    color: #fff;
+    margin-left: -10px;
+}
+
+/* Styles for the blur effect */
+.blurContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9997;
+    backdrop-filter: blur(4px);
+}
+
+.agentContainer {
+    height: auto;
+    width: 100vh;
+    background-color: #e5dfdf;
+    padding: 15px;
+    margin: 15px;
+}
+
+.agentContainer h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.agentContainer h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.examplePrompts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.examplePrompt {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.examplePrompt:hover {
+    background-color: #e0e0e0;
+}
+
+.selected {
+    background-color: #e0e0e0;
+}

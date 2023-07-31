@@ -1,0 +1,177 @@
+.main{
+
+    /* overflow-y: auto; */
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    width: 100vw;
+    min-height: 100vh;
+    top: 3.4rem;
+    /* right: 0;
+    left: 0; */
+    position: absolute;
+} 
+.sidebar{
+    width: 9rem;
+    height: 100vh;
+    background: #1E1F22; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 5px;
+    position: fixed;
+    z-index: 2;
+}
+.sidebar button{
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-align: left;
+    border-radius: 5px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.sidebar button:hover{
+    background: #555A66;
+}
+.isSelected{
+    background: #404248 !important;
+}
+.trackContainer{
+    width: 100%;
+    /* height: 100vh; */
+    position: absolute;
+    left:9rem;
+}
+.timer{
+    background-color: #404248;
+    display: flex;
+    position: fixed;
+    /* height: 126px; */
+    width: 90%;
+    /* gap: 30px; */
+    justify-content: space-between;
+    padding-right: 3rem;
+    z-index: 1;
+}
+.timer input{
+    width: 60%;
+    padding: 16px ;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 1px;
+    background-color: #404248;
+}
+.actions{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.actions svg{
+    cursor: pointer;
+    color: #F8F8F8;
+}
+.timeIcon svg{
+    width: 36px;
+    height: 36px;
+}
+.groupIcon svg{
+    width: 18px;
+    height: 18px;
+}
+.actions svg:hover{
+    color: rgba(255, 255, 255, 0.85);
+}
+.running svg{
+    color: #248046;
+}
+.actions p{
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.entriesContainer{
+    position: absolute;
+    top: 8rem;
+    color: #ffffff;
+    width: 88%;
+}
+
+.entry{
+width: 100%;
+/* margin: 2rem 0; */
+padding: 1rem 3.5rem 1rem 2rem;
+display: flex;
+justify-content: space-between;
+/* border-top: 1px solid #636161; */
+border-bottom: 1px solid #636161;
+}
+.entryTitle{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+.entryTitle,
+.entryTime,
+.dropItem{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+.entry:hover{
+    background:#404248;
+}
+.projectName{
+    font-weight: 300 !important;
+    color: #E4A400 !important;
+}
+.delete svg{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #AAA;
+}
+
+.delete svg:hover{
+    color:#CF422F;
+}
+.modal{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2rem; */
+    padding: 1rem;
+    align-items: center;
+}
+.modal input{
+    font-size: 24px;
+    font-weight: 600;
+    height: 3rem;
+    outline: none;
+    padding: 0.5rem;
+    border: 2px solid #888888;
+    border-radius: 8px;
+    color: #555a66;
+}
+.modal button{
+    font-size: 40px;
+    font-weight: 800;
+    /* line-height: 10px; */
+    background: none;
+    border: none;
+    color: #888888;
+}
+.modal button:hover{
+    color: #555a66;
+}

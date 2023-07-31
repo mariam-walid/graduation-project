@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    top: 3.4rem;
+    position: absolute;
+} 
+.info{
+    background: #1E1F22;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/saly-10.png);
+    background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    gap: 20px;
+    
+}
+.info .title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.moreInfo{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 200;
+    width: 40rem;
+}
+.cardsContainer{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    justify-content: center;
+}
+.card{
+    width: 22rem;
+
+}
+.cardInfo{
+    margin-top: 1rem;
+}
+.cardTitle{
+    color: #FFF;
+font-family: Inter;
+/* font-size: 40px; */
+font-style: normal;
+/* font-weight: 500; */
+/* line-height: normal; */
+}
+.cardText{
+    color: #FFF;
+font-family: Inter;
+/* font-size: 35px; */
+font-style: normal;
+font-weight: 400;
+}

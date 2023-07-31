@@ -1,0 +1,179 @@
+.addComment{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+.inputContainer{
+    flex-basis: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 !important;
+}
+.inputContainer input{
+    width: 90%;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    padding: 0 10px;
+    color: #AAA;
+}
+
+.inputContainer button{
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    padding: 3px 10px;
+    background: #404040;
+    color: #F1F1F1;
+    border: 1px solid #404040;
+    width: 70px;
+    letter-spacing: 1px;
+}
+
+.inputContainer button:hover{
+    background: #248046;
+    color: #fff;
+    border: 1px solid #248046;
+}
+
+
+.showToggle{
+    color: #AAA;
+    cursor: pointer;
+    text-decoration: underline;
+    width: fit-content;
+}
+.showToggle:hover{
+    color: #32A7FF;
+}
+.singleComment{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 5px 10px !important;
+    border: 1px solid #636161;
+    border-radius: 16px;
+    margin: 5px;
+}
+.singleComment p{
+    margin: 0;
+}
+.commentVote svg{
+    color: rgba(255,255,255,0.85);
+    cursor: pointer;
+}
+.commentVote svg:hover{
+    color: #777575;;
+}
+.commentInfo{
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    padding: 0 10px !important;
+}
+
+.commentActions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 10px !important;
+    gap: 5px;
+}
+
+.edit,
+.delete{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #AAA;
+}
+.edit:hover{
+    color:#32A7FF;
+}
+.delete:hover{
+    color:#CF422F;
+}
+
+.commentVote{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commentAuthor{
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    padding: 0 10px !important;
+}
+.commentAuthor div{
+    display: flex;
+    gap: 5px;
+}
+.commentAuthor svg{
+    color: rgba(255, 255, 255, 0.85);
+}
+.author{
+    color: #32A7FF;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.commentDate{
+    color: #AAA;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.editContainer{
+    display: flex;
+    flex-direction: column;
+}
+.editContainer textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 35px;
+    margin-top: 6px;
+    
+}
+.editContainer label{
+    color: #888888;
+}
+
+.editActions{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+}
+.editActions button{
+    padding: 3px 10px;
+    border-radius: 14px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+}
+.commentEdit{
+    background: #404040;
+    color: #F1F1F1;
+    border: 1px solid #404040;
+}
+.discard{
+    border: 1px solid #000;
+    background: #FFF;
+    color: #323232;
+}
+.discard:hover{
+    border: 1px solid #CF422F;
+    color: #CF422F;
+}
+.commentEdit:hover{
+    background: #248046;
+    color: #fff;
+    border: 1px solid #248046;
+}

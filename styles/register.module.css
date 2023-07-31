@@ -1,0 +1,109 @@
+.main{
+    background: #1E1F22;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-family: Inter;
+}
+
+.register,
+.login{
+    background: #2B2D31;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    border-radius: 8px;
+    padding: 30px 40px;
+}
+.register h5,
+.login h5{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.register form,
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 5px;
+}
+.inputContainer label{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 16px;
+}
+
+.inputContainer input{
+    background: #1E1F22;
+    border: 1px solid #1E1F22;
+    border-radius: 3px;
+    height: 40px;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.register button,
+.login button{
+    background: #248046;
+    border: 1px solid #248046;
+    border-radius: 3px;
+    padding: 6px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.register button:hover,
+.login button:hover{
+    background: #23663b;
+    border: 1px solid #23663b;
+}
+.error{
+    color: #CF422F !important;
+    font-size: 14px !important;
+    letter-spacing: 1.2px !important;
+}
+
+.register a,
+.login a{
+    color: #32A7FF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.register a:hover,
+.login a:hover{
+    text-decoration: underline;
+}
+
+.login h5{
+    margin-bottom: 0.5rem;
+}
+.login p{
+    color: #AAA;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.login>p{
+    text-align: center;
+}
